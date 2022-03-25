@@ -1,0 +1,1 @@
+{"listeners":{"unix:///var/run/falcon.sock":{"pass":"applications/falcon","client_ip":{"header":"X-Forwarded-For","source":"unix"}}},"applications":{"falcon":{"type":"python3","path":"/opt/falcon/","module":"things_asgi","callable":"app"}}}
