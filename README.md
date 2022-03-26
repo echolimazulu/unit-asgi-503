@@ -11,7 +11,7 @@ https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
 
 This example uses https://github.com/nginx/unit with python 3.9 module.
 
-**Changes - final goal:**
+**Changes and final goal:**
 <br>
 The assembly commands are supplemented with the necessary commands 
 to demonstrate the problem and find its subsequent solution.
