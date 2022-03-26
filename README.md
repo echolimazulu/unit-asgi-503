@@ -18,11 +18,9 @@ to demonstrate the problem and find its subsequent solution.
 
 # Getting started
 To run a project with **Docker installed** on the computer: 
-- run the following command in the working folder of the project:
-`./test.sh`
-- check the result of the command in the `cli` and `STDOUT` of the `falcon-test` container in the local Docker repository
-- view the current `STDOUT` of the `falcon-test` container in your 
-local Docker repository.
+- run the following command in the working folder of the project: `./test.sh`;
+- check the result of the command in the `cli`;
+- view the current `STDOUT` of the `falcon-test` container in the local Docker repository.
 ___
 **Execution result:**
 <br>
