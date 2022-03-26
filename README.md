@@ -1,7 +1,8 @@
 # unit-asgi-503
 
 This repository was created solely to demonstrate existing problems 
-and **THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES**:
+and <br><br>
+**THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES:**
 - https://github.com/nginx/unit/issues/641
 - https://github.com/nginx/unit/issues/635
 
