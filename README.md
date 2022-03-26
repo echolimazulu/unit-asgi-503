@@ -8,7 +8,7 @@ and THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES:
 
 This example uses nginx/unit and python 3.9 module.
 
-The container assembly code is taken from the original repository:
+The container assembly code is taken from the **original repository**:
 https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
 
 **Changes:**
