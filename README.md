@@ -10,11 +10,18 @@ The container assembly code is taken from the **original repository**:
 https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
 
 This example uses https://github.com/nginx/unit with `python 3.9` module and `falcon` framework.
-
+___
 **Changes and final goal:**
-<br>
+
 The assembly commands are supplemented with the necessary commands 
 to demonstrate the problem and find its subsequent solution.
+___
+**Note:**
+
+Thanks to https://github.com/alejandro-colomar for the work done and the solution he suggested.
+
+
+This code already includes the patch suggested by https://github.com/alejandro-colomar in the **PR**: https://github.com/nginx/unit/pull/655 as a solution to the **issue**: https://github.com/nginx/unit/issues/642 choosing the `sock` branch from his personal repository: https://github.com/alejandro-colomar/unit
 
 # Getting started
 To run a project with **Docker installed** on the computer: 
@@ -23,7 +30,7 @@ To run a project with **Docker installed** on the computer:
 - view the current `STDOUT` of the `falcon-test` container in the local Docker repository.
 ___
 **Execution result:**
-<br>
+
 `<!DOCTYPE html><title>Error 503</title><p>Error 503.`
 
 **Docker "falcon-test" containter STDOUT**:
