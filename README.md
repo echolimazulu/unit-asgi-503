@@ -9,7 +9,7 @@ and THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES:
 The container assembly code is taken from the **original repository**:
 https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
 
-This example uses https://github.com/nginx/unit with python 3.9 module.
+This example uses https://github.com/nginx/unit with python 3.9 module and falcon framework.
 
 **Changes and final goal:**
 <br>
