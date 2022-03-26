@@ -6,10 +6,10 @@ and THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES:
 - https://github.com/nginx/unit/issues/635 (bug)
 - https://github.com/nginx/unit/issues/641 (duplicate)
 
-This example uses https://github.com/nginx/unit with python 3.9 module.
-
 The container assembly code is taken from the **original repository**:
 https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
+
+This example uses https://github.com/nginx/unit with python 3.9 module.
 
 **Changes - final goal:**
 <br>
