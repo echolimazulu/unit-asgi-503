@@ -6,28 +6,29 @@ and THE CODE IN IT SHOULD NOT BE USED FOR PRODUCTION PURPOSES:
 - https://github.com/nginx/unit/issues/641
 - https://github.com/nginx/unit/issues/635
 
-This example uses nginx/unit and python 3.9 module.
+This example uses https://github.com/nginx/unit with python 3.9 module.
 
 The container assembly code is taken from the **original repository**:
 https://github.com/nginx/unit/blob/master/pkg/docker/Dockerfile.python3.9
 
-**Changes:**
+**Changes - final goal:**
 <br>
 The assembly commands are supplemented with the necessary commands 
 to demonstrate the problem and find its subsequent solution.
 
-To run a project with Docker installed on the computer, 
-run the following command in the working folder of the project:
+# Getting started
+To run a project with **Docker installed** on the computer: 
+- run the following command in the working folder of the project:
 `./test.sh`
-
-Next, view the current `STDOUT` of the `falcon` container in your 
+- view the current `STDOUT` of the `falcon-test` container in your 
 local Docker repository.
-
-**Response to request:**
+- check the result of the command in the `cli` and `STDOUT` of the `falcon-test` container in the local Docker repository
+___
+**Execution result:**
 <br>
 `<!DOCTYPE html><title>Error 503</title><p>Error 503.`
 
-**Unit log to STDOUT**:
+**Docker falcon-test containter STDOUT**:
 ```
 Traceback (most recent call last):
 
